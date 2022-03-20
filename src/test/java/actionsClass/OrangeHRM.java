@@ -90,7 +90,7 @@ public class OrangeHRM {
 	public static void click(){
 		WebElement loginButton=driver.findElement(Engine.locators);
 		loginButton.click();
-		driver.close();
+		//driver.close();
 
 	}
 
